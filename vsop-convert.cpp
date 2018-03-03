@@ -207,7 +207,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    std::cout << "Parsing VSOP2013 text file: " << argv[1] << std::endl;
+    std::cerr << "Parsing VSOP2013 text file: " << argv[1] << std::endl;
     std::ifstream ifs(argv[1]);
 
     if (!ifs.is_open()) {
